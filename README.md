@@ -41,7 +41,7 @@ This project applies core Computer Graphics concepts through a complete interact
 - [How to Run](#-how-to-run)
 - [References](#-references)
 - [Team Members](#-team-members-)
-- [Future Work](#-future-work)
+
 
 ---
 
