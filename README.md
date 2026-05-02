@@ -1,6 +1,6 @@
 # 🚪 Escape The Maze – The Lost Key
 
-> A 2D OpenGL adventure game demonstrating core Computer Graphics concepts through interactive gameplay.
+> A 2D OpenGL adventure game demonstrating core Computer Graphics concepts through interactive gameplay with immersive audio effects.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge">
@@ -16,7 +16,7 @@
 
 ---
 
-##  Project Description :
+## Project Description :
 
 **Escape The Maze – The Lost Key** is a 2D adventure maze game developed using **C++ and OpenGL/GLUT**.
 
@@ -26,26 +26,25 @@ This project applies core Computer Graphics concepts through a complete interact
 
 ---
 
-##  Table of Contents :
+## Table of Contents :
 
-- [Gameplay Demo](#-gameplay-demo)
-- [Screenshots](#-screenshots)
-- [Game Flow](#-game-flow-)
-- [Code Architecture](#-code-architecture)
-- [Characters](#-characters)
-- [Game Objects](#-game-objects--)
-- [Gameplay Features](#-gameplay-features)
-- [Computer Graphics Concepts Applied](#-computer-graphics-concepts-applied-)
-- [Controls](#-controls-)
-- [Repository Structure](#-repository-structure)
-- [How to Run](#-how-to-run)
-- [References](#-references)
-- [Team Members](#-team-members-)
-
+* [Gameplay Demo](#-gameplay-demo)
+* [Screenshots](#-screenshots)
+* [Game Flow](#-game-flow-)
+* [Code Architecture](#-code-architecture)
+* [Characters](#-characters)
+* [Game Objects](#-game-objects--)
+* [Gameplay Features](#-gameplay-features)
+* [Computer Graphics Concepts Applied](#-computer-graphics-concepts-applied-)
+* [Controls](#-controls-)
+* [Repository Structure](#-repository-structure)
+* [How to Run](#-how-to-run)
+* [References](#-references)
+* [Team Members](#-team-members-)
 
 ---
 
-##  Gameplay Demo 🎥 :
+## Gameplay Demo 🎥 :
 
 <p align="center">
   <img src="objects/Play.gif" width="850">
@@ -57,20 +56,20 @@ This project applies core Computer Graphics concepts through a complete interact
 
 ---
 
-## Screenshots : 
+## Screenshots :
 
 A quick preview of the game's main scenes and gameplay experience.
 
-| Main Menu | How To Play |
-|---|---|
+| Main Menu                                    | How To Play                                         |
+| -------------------------------------------- | --------------------------------------------------- |
 | <img src="screenshots/menu.png" width="430"> | <img src="screenshots/how-to-play.png" width="430"> |
 
-| Gameplay | Victory |
-|---|---|
+| Gameplay                                         | Victory                                         |
+| ------------------------------------------------ | ----------------------------------------------- |
 | <img src="screenshots/gameplay.png" width="430"> | <img src="screenshots/victory.png" width="430"> |
 
-| Game Over | Gameplay Demo |
-|---|---|
+| Game Over                                         | Gameplay Demo                            |
+| ------------------------------------------------- | ---------------------------------------- |
 | <img src="screenshots/game-over.png" width="430"> | <img src="objects/Play.gif" width="430"> |
 
 ---
@@ -99,7 +98,7 @@ Victory / Game Over
 
 ---
 
-##  Code Architecture :
+## Code Architecture :
 
 <p align="center">
   <img width="750" src="diagrams/ARCHITECTURE DIAGRAM.png" alt="Architecture Diagram">
@@ -121,7 +120,7 @@ glutMainLoop()
 
 ---
 
-##  Characters :
+## Characters :
 
 <p align="center">
   <img width="220" src="characters/The boy 1.png">
@@ -129,15 +128,15 @@ glutMainLoop()
   <img width="220" src="characters/Fair.png">
 </p>
 
-| Character | Role |
-|---|---|
-| **Player** | Main playable character |
-| **Enemy** | Causes instant Game Over on collision |
-| **Torch** | Decorative lighting element used in UI screens |
+| Character  | Role                                           |
+| ---------- | ---------------------------------------------- |
+| **Player** | Main playable character                        |
+| **Enemy**  | Causes instant Game Over on collision          |
+| **Torch**  | Decorative lighting element used in UI screens |
 
 ---
 
-##  Game Objects 🗝️ :
+## Game Objects 🗝️ :
 
 <p align="center">
   <img width="110" src="objects/Key1.png" alt="Key 1">
@@ -148,49 +147,54 @@ glutMainLoop()
   <img width="110" src="objects/Heart.png" alt="Heart">
 </p>
 
-| Object | Function |
-|---|---|
-| **Keys** | The player must collect three keys |
-| **Door** | Opens after collecting all keys |
-| **Trap** | Reduces player hearts |
-| **Heart** | Represents player health |
-| **Enemy** | Ends the game when touched |
+| Object    | Function                           |
+| --------- | ---------------------------------- |
+| **Keys**  | The player must collect three keys |
+| **Door**  | Opens after collecting all keys    |
+| **Trap**  | Reduces player hearts              |
+| **Heart** | Represents player health           |
+| **Enemy** | Ends the game when touched         |
 
 ---
 
-##  Gameplay Features 🎮 :
+## Gameplay Features 🎮 :
 
-- Main menu with mouse interaction
-- How To Play instructions screen
-- Story intro screen
-- Maze gameplay scene
-- Victory screen
-- Game Over screen
-- Player movement using keyboard
-- Key collection system
-- Health / hearts system
-- Countdown timer
-- Trap damage feedback
-- Enemy collision
-- Door unlock condition
+* Main menu with mouse interaction
+* How To Play instructions screen
+* Story intro screen
+* Maze gameplay scene
+* Victory screen
+* Game Over screen
+* Player movement using keyboard
+* Key collection system
+* Health / hearts system
+* Countdown timer
+* Trap damage feedback
+* Enemy collision
+* Door unlock condition
+* Background music
+* Interactive sound effects
+* Audio feedback for gameplay events
 
 ---
 
 ## Computer Graphics Concepts Applied :
 
 ### 1. 2D Object Representation
+
 The game uses rectangles, quads, polygons, and texture-mapped surfaces to represent game objects.
 
 ### 2. Texture Mapping
+
 Images are loaded using `stb_image.h` and mapped onto OpenGL quads using texture coordinates.
 
 ### 3. Geometric Transformations
 
-| Transformation | Applied To |
-|---|---|
-| **Translation** | Player movement |
-| **Rotation** | Spinning keys |
-| **Scaling** | Door pulse animation |
+| Transformation  | Applied To           |
+| --------------- | -------------------- |
+| **Translation** | Player movement      |
+| **Rotation**    | Spinning keys        |
+| **Scaling**     | Door pulse animation |
 
 ### 4. 2D Viewing
 
@@ -202,10 +206,10 @@ gluOrtho2D(0, 1000, 0, 700);
 
 ### 5. User Interaction
 
-| Input | Usage |
-|---|---|
+| Input        | Usage                         |
+| ------------ | ----------------------------- |
 | **Keyboard** | Player movement and shortcuts |
-| **Mouse** | Menu buttons and navigation |
+| **Mouse**    | Menu buttons and navigation   |
 
 ### 6. Animation
 
@@ -217,40 +221,40 @@ glutTimerFunc()
 
 to update:
 
-- Key rotation
-- Door scaling
-- Timer countdown
-- Damage flash effect
+* Key rotation
+* Door scaling
+* Timer countdown
+* Damage flash effect
 
 ### 7. Collision Detection
 
 Rectangle-based collision detection is used for:
 
-- Walls
-- Keys
-- Traps
-- Enemy
-- Door
+* Walls
+* Keys
+* Traps
+* Enemy
+* Door
 
 ---
 
 ## Controls 🎮:
 
-| Action | Input |
-|---|---|
-| Move Up | W / ↑ |
-| Move Down | S / ↓ |
-| Move Left | A / ← |
-| Move Right | D / → |
+| Action           | Input         |
+| ---------------- | ------------- |
+| Move Up          | W / ↑         |
+| Move Down        | S / ↓         |
+| Move Left        | A / ←         |
+| Move Right       | D / →         |
 | Start / Continue | Enter / Space |
-| Back | B |
-| Restart | R |
-| Menu | M |
-| Exit | ESC |
+| Back             | B             |
+| Restart          | R             |
+| Menu             | M             |
+| Exit             | ESC           |
 
 ---
 
-##  Repository Structure :
+## Repository Structure :
 
 ```text
 Escape-The-Maze-The-Lost-Key/
@@ -270,12 +274,12 @@ Escape-The-Maze-The-Lost-Key/
 
 ---
 
-##  How to Run :
+## How to Run :
 
 ### macOS / Xcode
 
 1. Open the project in **Xcode**
-2. Make sure the `assets/` folder is added to the project directory
+2. Make sure the `assets/` folder (including `assets/audio/`) is added to the project directory
 3. Make sure `stb_image.h` is included
 4. Build and run using:
 
@@ -285,27 +289,25 @@ Command + R
 
 ---
 
-##  References :
+## References :
 
-- OpenGL Documentation: https://www.opengl.org/
-- FreeGLUT Documentation: https://freeglut.sourceforge.net/
-- `stb_image.h` by Sean Barrett: https://github.com/nothings/stb
-
----
- 
-##  Team Members 👩‍💻:
-
-| Name | Student Number  |
-|---|---|
-| **Lina Saud Almatrafi** | 441011792|
-| **Jory Majed Alotaibi** | 44411907 |
-| **Fouz Fawaz Alsharif** | 44412064 |
-| **Lama Alaofy** | 44411741|
+* OpenGL Documentation: https://www.opengl.org/
+* FreeGLUT Documentation: https://freeglut.sourceforge.net/
+* `stb_image.h` by Sean Barrett: https://github.com/nothings/stb
+* macOS `afplay` command-line audio player (used for sound playback)
 
 ---
 
+## Team Members 👩‍💻:
 
+| Name                    | Student Number |
+| ----------------------- | -------------- |
+| **Lina Saud Almatrafi** | 441011792      |
+| **Jory Majed Alotaibi** | 44411907       |
+| **Fouz Fawaz Alsharif** | 44412064       |
+| **Lama Alaofy**         | 44411741       |
 
+---
 
 <p align="center">
   <img src="https://img.shields.io/badge/Built%20With-OpenGL%20%26%20Creativity-gold?style=for-the-badge">
