@@ -1,5 +1,11 @@
 #  Escape The Maze – The Lost Key 🚪 :
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-blue">
+  <img src="https://img.shields.io/badge/Graphics-OpenGL-green">
+  <img src="https://img.shields.io/badge/Framework-GLUT-orange">
+  <img src="https://img.shields.io/badge/Course-CS2206-purple">
+  <img src="https://img.shields.io/badge/Status-Completed-success">
+</p>
 > A 2D OpenGL adventure game demonstrating core Computer Graphics concepts through interactive gameplay.
 
 Watch the full gameplay walkthrough here:
@@ -10,13 +16,7 @@ Watch the full gameplay walkthrough here:
 
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-C%2B%2B-blue">
-  <img src="https://img.shields.io/badge/Graphics-OpenGL-green">
-  <img src="https://img.shields.io/badge/Framework-GLUT-orange">
-  <img src="https://img.shields.io/badge/Course-CS2206-purple">
-  <img src="https://img.shields.io/badge/Status-Completed-success">
-</p>
+
 
 ---
 
