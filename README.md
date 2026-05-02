@@ -122,9 +122,9 @@ Put object images inside the `objects/` folder.
 <p align="center">
   <img width="110" src="objects/Key1.png" alt="Key1">
   <img width="110" src="objects/Key2.png" alt="Key2">
-  <img width="110" src="objects/key3.png" alt="Key3">
+  <img width="110" src="objects/Key3.png" alt="Key3">
   <img width="130" src="objects/TheDoor.png" alt="TheDoor">
-  <img width="110" src="objects/trap.png" alt="Trap">
+  <img width="110" src="objects/Rocks3.png" alt="Rocks3">
   <img width="110" src="objects/Heart.png" alt="Heart">
 </p>
 
