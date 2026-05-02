@@ -57,32 +57,21 @@ This project applies core Computer Graphics concepts through a complete interact
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots : 
 
-### Main Menu
-<p align="center">
-  <img src="screenshots/menu.png" width="900">
-</p>
+A quick preview of the game's main scenes and gameplay experience.
 
-### How To Play
-<p align="center">
-  <img src="screenshots/how-to-play.png" width="900">
-</p>
+| Main Menu | How To Play |
+|---|---|
+| <img src="screenshots/menu.png" width="430"> | <img src="screenshots/how-to-play.png" width="430"> |
 
-### Gameplay
-<p align="center">
-  <img src="screenshots/gameplay.png" width="900">
-</p>
+| Gameplay | Victory |
+|---|---|
+| <img src="screenshots/gameplay.png" width="430"> | <img src="screenshots/victory.png" width="430"> |
 
-### Victory Screen
-<p align="center">
-  <img src="screenshots/victory.png" width="900">
-</p>
-
-### Game Over Screen
-<p align="center">
-  <img src="screenshots/game-over.png" width="900">
-</p>
+| Game Over | Gameplay Demo |
+|---|---|
+| <img src="screenshots/game-over.png" width="430"> | <img src="objects/Play.gif" width="430"> |
 
 ---
 
