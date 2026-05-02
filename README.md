@@ -1,4 +1,4 @@
-# 🚪 Escape The Maze – The Lost Key
+#  Escape The Maze – The Lost Key 🚪 :
 
 > A 2D OpenGL adventure game demonstrating core Computer Graphics concepts through interactive gameplay.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 📌 Project Description
+##  Project Description :
 
 **Escape The Maze – The Lost Key** is a 2D adventure maze game developed using **C++ and OpenGL/GLUT**.
 
@@ -24,7 +24,7 @@ The player wakes up inside a mysterious maze and must collect **three hidden key
 
 ---
 
-## 🎥 Gameplay Demo
+##  Gameplay Demo 🎥 :
 
 Replace the link below with your YouTube / Google Drive demo video link.
 
@@ -34,7 +34,7 @@ Replace the link below with your YouTube / Google Drive demo video link.
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots :
 
 Put your screenshots inside the `screenshots/` folder using these exact names.
 
@@ -52,7 +52,7 @@ Put your screenshots inside the `screenshots/` folder using these exact names.
 
 ---
 
-## 🧩 Game Flow
+##  Game Flow 🧩 :
 
 Put your flowchart image here: `diagrams/game-flow.png`
 
@@ -74,7 +74,7 @@ Victory / Game Over
 
 ---
 
-## 🏗️ Code Architecture
+##  Code Architecture :
 
 Put your architecture diagram here: `diagrams/architecture.png`
 
@@ -96,7 +96,7 @@ glutMainLoop()
 
 ---
 
-## 👤 Characters
+##  Characters :
 
 Put character images inside the `characters/` folder.
 
@@ -114,7 +114,7 @@ Put character images inside the `characters/` folder.
 
 ---
 
-## 🗝️ Game Objects
+##  Game Objects 🗝️ 👻 :
 
 Put object images inside the `objects/` folder.
 
@@ -129,7 +129,7 @@ Put object images inside the `objects/` folder.
 
 ---
 
-## 🎮 Gameplay Features
+##  Gameplay Features :
 
 - Main menu with mouse interaction
 - How To Play instructions screen
@@ -147,7 +147,7 @@ Put object images inside the `objects/` folder.
 
 ---
 
-## 🧠 Computer Graphics Concepts Applied
+## Computer Graphics Concepts Applied 🧠 :
 
 ### 1. 2D Object Representation
 The game uses rectangles, quads, polygons, and texture-mapped surfaces.
@@ -189,7 +189,7 @@ Rectangle-based collision is used for walls, keys, traps, enemy, and door.
 
 ---
 
-## 🎮 Controls
+##  Controls 🎮 :
 
 | Action | Input |
 |---|---|
@@ -205,7 +205,7 @@ Rectangle-based collision is used for walls, keys, traps, enemy, and door.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure :
 
 ```text
 EscapeTheMaze/
@@ -225,7 +225,7 @@ EscapeTheMaze/
 
 ---
 
-## 🚀 How to Run
+##  How to Run :
 
 ### macOS / Xcode
 
@@ -236,7 +236,7 @@ EscapeTheMaze/
 
 ---
 
-## 📚 References
+##  References :
 
 - OpenGL Documentation: https://www.opengl.org/
 - FreeGLUT Documentation: https://freeglut.sourceforge.net/
@@ -244,7 +244,7 @@ EscapeTheMaze/
 
 ---
 
-## 👩‍💻 Team Members
+##  Team Members 👩‍💻 :
 
 | Member | Role |
 |---|---|
