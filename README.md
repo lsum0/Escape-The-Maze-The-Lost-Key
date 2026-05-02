@@ -6,7 +6,7 @@ Watch the full gameplay walkthrough here:
 
 <p align="center">
   <a href="PUT_YOUR_VIDEO_LINK_HERE">
-    <img src="screenshots/menu.png" width="850">
+    <img src="objects/Play.gif" width="850">
   </a>
 </p>
 
