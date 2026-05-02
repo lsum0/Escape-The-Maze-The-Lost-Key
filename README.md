@@ -1,4 +1,5 @@
-#  Escape The Maze – The Lost Key 🚪 :
+# 🚪 Escape The Maze – The Lost Key
+
 > A 2D OpenGL adventure game demonstrating core Computer Graphics concepts through interactive gameplay.
 
 <p align="center">
@@ -9,82 +10,115 @@
   <img src="https://img.shields.io/badge/Project-Completed-success?style=for-the-badge">
 </p>
 
-Watch the full gameplay walkthrough here:
-[![Watch Gameplay Demo](screenshots/menu.png)](PUT_YOUR_VIDEO_LINK_HERE)
-
-
 <p align="center">
-
+  <b>Built with Computer Graphics fundamentals using OpenGL & GLUT</b>
 </p>
-
-
 
 ---
 
-##  Project Description :
+## 📌 Project Description
 
 **Escape The Maze – The Lost Key** is a 2D adventure maze game developed using **C++ and OpenGL/GLUT**.
 
 The player wakes up inside a mysterious maze and must collect **three hidden keys**, avoid traps and enemies, and escape through the exit door before the timer reaches zero.
 
+This project applies core Computer Graphics concepts through a complete interactive game experience.
+
 ---
 
-##  Gameplay Demo 🎥 :
+## 📑 Table of Contents
 
+- [Gameplay Demo](#-gameplay-demo)
+- [Screenshots](#-screenshots)
+- [Game Flow](#-game-flow-)
+- [Code Architecture](#-code-architecture)
+- [Characters](#-characters)
+- [Game Objects](#-game-objects--)
+- [Gameplay Features](#-gameplay-features)
+- [Computer Graphics Concepts Applied](#-computer-graphics-concepts-applied-)
+- [Controls](#-controls-)
+- [Repository Structure](#-repository-structure)
+- [How to Run](#-how-to-run)
+- [References](#-references)
+- [Team Members](#-team-members-)
+- [Future Work](#-future-work)
+
+---
+
+## 🎥 Gameplay Demo
 
 <p align="center">
-  <a href="PUT_YOUR_VIDEO_LINK_HERE">
-    <img src="objects/Play.gif" width="850">
-  </a>
+  <img src="objects/Play.gif" width="850">
+</p>
+
+<p align="center">
+  <b>Escape The Maze – Live Gameplay Preview</b>
 </p>
 
 ---
-## Screenshots :
 
-A quick preview of the game's main scenes and gameplay experience.
+## 🖼️ Screenshots
 
-| Main Menu | How To Play |
-|---|---|
-| <img src="screenshots/menu.png" width="430"> | <img src="screenshots/how-to-play.png" width="430"> |
+### Main Menu
+<p align="center">
+  <img src="screenshots/menu.png" width="900">
+</p>
 
-| Gameplay | Victory |
-|---|---|
-| <img src="screenshots/gameplay.png" width="430"> | <img src="screenshots/victory.png" width="430"> |
+### How To Play
+<p align="center">
+  <img src="screenshots/how-to-play.png" width="900">
+</p>
 
-| Game Over | |
-|---|---|
-| <p align="center"><img src="screenshots/game-over.png" width="430"></p> | |
-##  Game Flow 🧩 :
+### Gameplay
+<p align="center">
+  <img src="screenshots/gameplay.png" width="900">
+</p>
 
-Put your flowchart image here: `diagrams/game-flow.png`
+### Victory Screen
+<p align="center">
+  <img src="screenshots/victory.png" width="900">
+</p>
+
+### Game Over Screen
+<p align="center">
+  <img src="screenshots/game-over.png" width="900">
+</p>
+
+---
+
+## 🧩 Game Flow
 
 <p align="center">
   <img width="750" src="diagrams/Game Flow.png" alt="Game Flow">
 </p>
 
 ```text
-Menu
- ↓
+Main Menu
+   ↓
 How To Play
- ↓
+   ↓
 Intro
- ↓
+   ↓
 Gameplay
- ↓
+   ↓
+Collect 3 Keys
+   ↓
+Unlock Door
+   ↓
 Victory / Game Over
 ```
 
 ---
 
-##  Code Architecture :
-
-Put your architecture diagram here: `diagrams/architecture.png`
+## 🏗️ Code Architecture
 
 <p align="center">
-  <img width="750" src="diagrams/ARCHITECTURE DIAGRAM.png" alt="ARCHITECTURE DIAGRAM">
+  <img width="750" src="diagrams/ARCHITECTURE DIAGRAM.png" alt="Architecture Diagram">
 </p>
 
 ```text
+main()
+  ↓
 init()
   ↓
 display()
@@ -98,41 +132,44 @@ glutMainLoop()
 
 ---
 
-##  Characters :
-
-Put character images inside the `characters/` folder.
-
+## 👤 Characters
 
 <p align="center">
-<img width="220" src="characters/The boy 1.png">
-<img width="220" src="characters/Imposter.png">
-<img width="220" src="characters/Fair.png">
+  <img width="220" src="characters/The boy 1.png">
+  <img width="220" src="characters/Imposter.png">
+  <img width="220" src="characters/Fair.png">
 </p>
 
 | Character | Role |
 |---|---|
-| Player | Main playable character |
-| Enemy | Causes instant Game Over on collision |
-| Torch | Decorative maze lighting element |
+| **Player** | Main playable character |
+| **Enemy** | Causes instant Game Over on collision |
+| **Torch** | Decorative lighting element used in UI screens |
 
 ---
 
-##  Game Objects 🗝️ 👻 :
-
-Put object images inside the `objects/` folder.
+## 🗝️ Game Objects 🧱
 
 <p align="center">
-  <img width="110" src="objects/Key1.png" alt="Key1">
-  <img width="110" src="objects/Key2.png" alt="Key2">
-  <img width="110" src="objects/Key3.png" alt="Key3">
-  <img width="130" src="objects/TheDoor.png" alt="TheDoor">
-  <img width="110" src="objects/Rocks3.png" alt="Rocks3">
+  <img width="110" src="objects/Key1.png" alt="Key 1">
+  <img width="110" src="objects/Key2.png" alt="Key 2">
+  <img width="110" src="objects/Key3.png" alt="Key 3">
+  <img width="130" src="objects/TheDoor.png" alt="Door">
+  <img width="110" src="objects/Rocks3.png" alt="Trap">
   <img width="110" src="objects/Heart.png" alt="Heart">
 </p>
 
+| Object | Function |
+|---|---|
+| **Keys** | The player must collect three keys |
+| **Door** | Opens after collecting all keys |
+| **Trap** | Reduces player hearts |
+| **Heart** | Represents player health |
+| **Enemy** | Ends the game when touched |
+
 ---
 
-##  Gameplay Features :
+## 🎮 Gameplay Features
 
 - Main menu with mouse interaction
 - How To Play instructions screen
@@ -142,18 +179,18 @@ Put object images inside the `objects/` folder.
 - Game Over screen
 - Player movement using keyboard
 - Key collection system
-- Health system
-- Timer system
+- Health / hearts system
+- Countdown timer
 - Trap damage feedback
 - Enemy collision
 - Door unlock condition
 
 ---
 
-## Computer Graphics Concepts Applied 🧠 :
+## 🧠 Computer Graphics Concepts Applied
 
 ### 1. 2D Object Representation
-The game uses rectangles, quads, polygons, and texture-mapped surfaces.
+The game uses rectangles, quads, polygons, and texture-mapped surfaces to represent game objects.
 
 ### 2. Texture Mapping
 Images are loaded using `stb_image.h` and mapped onto OpenGL quads using texture coordinates.
@@ -162,11 +199,12 @@ Images are loaded using `stb_image.h` and mapped onto OpenGL quads using texture
 
 | Transformation | Applied To |
 |---|---|
-| Translation | Player movement |
-| Rotation | Spinning keys |
-| Scaling | Door pulse animation |
+| **Translation** | Player movement |
+| **Rotation** | Spinning keys |
+| **Scaling** | Door pulse animation |
 
 ### 4. 2D Viewing
+
 The project uses an orthographic projection:
 
 ```cpp
@@ -177,22 +215,37 @@ gluOrtho2D(0, 1000, 0, 700);
 
 | Input | Usage |
 |---|---|
-| Keyboard | Player movement and shortcuts |
-| Mouse | Menu buttons and navigation |
+| **Keyboard** | Player movement and shortcuts |
+| **Mouse** | Menu buttons and navigation |
 
 ### 6. Animation
-The project uses `glutTimerFunc()` to update:
+
+The project uses:
+
+```cpp
+glutTimerFunc()
+```
+
+to update:
+
 - Key rotation
 - Door scaling
 - Timer countdown
 - Damage flash effect
 
 ### 7. Collision Detection
-Rectangle-based collision is used for walls, keys, traps, enemy, and door.
+
+Rectangle-based collision detection is used for:
+
+- Walls
+- Keys
+- Traps
+- Enemy
+- Door
 
 ---
 
-##  Controls 🎮 :
+## 🎮 Controls
 
 | Action | Input |
 |---|---|
@@ -208,10 +261,10 @@ Rectangle-based collision is used for walls, keys, traps, enemy, and door.
 
 ---
 
-## Repository Structure :
+## 📁 Repository Structure
 
 ```text
-EscapeTheMaze/
+Escape-The-Maze-The-Lost-Key/
 │
 ├── README.md
 ├── main.cpp
@@ -228,18 +281,22 @@ EscapeTheMaze/
 
 ---
 
-##  How to Run :
+## 🚀 How to Run
 
 ### macOS / Xcode
 
 1. Open the project in **Xcode**
 2. Make sure the `assets/` folder is added to the project directory
 3. Make sure `stb_image.h` is included
-4. Build and run using **Command + R**
+4. Build and run using:
+
+```text
+Command + R
+```
 
 ---
 
-##  References :
+## 📚 References
 
 - OpenGL Documentation: https://www.opengl.org/
 - FreeGLUT Documentation: https://freeglut.sourceforge.net/
@@ -247,14 +304,14 @@ EscapeTheMaze/
 
 ---
 
-##  Team Members 👩‍💻 :
+## 👩‍💻 Team Members
 
-| Member | Role |
+| Name | Role |
 |---|---|
-| Member 1 | Project leader / Lina Saud Almatrafi |
-| Member 2 | Jory Majed Alotaibi|
-| Member 3 | Fouz Fawaz Alsharif |
-| Member 4 | Lama Alaofy|
+| **Lina Saud Almatrafi** | Team Leader / Game Structure |
+| **Jory Majed Alotaibi** | UI & Scenes |
+| **Fouz Fawaz Alsharif** | Gameplay Logic |
+| **Lama Alaofy** | Documentation & Presentation |
 
 ---
 
@@ -269,5 +326,10 @@ EscapeTheMaze/
 ---
 
 <p align="center">
-  <b>⭐ Escape The Maze – The Lost Key ⭐</b>
+  <img src="https://img.shields.io/badge/Built%20With-OpenGL%20%26%20Creativity-gold?style=for-the-badge">
+</p>
+
+<p align="center">
+  <b>⭐ Escape The Maze – The Lost Key ⭐</b><br>
+  Computer Graphics Project – CS2206
 </p>
