@@ -33,7 +33,7 @@ Replace the link below with your YouTube / Google Drive demo video link.
 **Direct Video Link:** PUT_YOUR_VIDEO_LINK_HERE
 
 ---
-## 🖼️ Screenshots
+## Screenshots :
 
 A quick preview of the game's main scenes and gameplay experience.
 
