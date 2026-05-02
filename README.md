@@ -248,10 +248,10 @@ EscapeTheMaze/
 
 | Member | Role |
 |---|---|
-| Member 1 | Project leader / game structure |
-| Member 2 | UI screens / menu / how to play |
-| Member 3 | Maze design / collision |
-| Member 4 | Gameplay logic / report / presentation |
+| Member 1 | Project leader / Lina Saud Almatrafi |
+| Member 2 | Jory Majed Alotaibi|
+| Member 3 | Fouz Fawaz Alsharif |
+| Member 4 | Lama Alaofy|
 
 ---
 
