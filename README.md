@@ -3,12 +3,8 @@
 > A 2D OpenGL adventure game demonstrating core Computer Graphics concepts through interactive gameplay.
 
 Watch the full gameplay walkthrough here:
+[![Watch Gameplay Demo](screenshots/menu.png)](PUT_YOUR_VIDEO_LINK_HERE)
 
-<p align="center">
-  <a href="PUT_YOUR_VIDEO_LINK_HERE">
-    <img src="objects/Play.gif" width="850">
-  </a>
-</p>
 
 <p align="center">
 
@@ -34,11 +30,12 @@ The player wakes up inside a mysterious maze and must collect **three hidden key
 
 ##  Gameplay Demo 🎥 :
 
-Replace the link below with your YouTube / Google Drive demo video link.
 
-[![Watch Gameplay Demo](screenshots/menu.png)](PUT_YOUR_VIDEO_LINK_HERE)
-
-**Direct Video Link:** PUT_YOUR_VIDEO_LINK_HERE
+<p align="center">
+  <a href="PUT_YOUR_VIDEO_LINK_HERE">
+    <img src="objects/Play.gif" width="850">
+  </a>
+</p>
 
 ---
 ## Screenshots :
