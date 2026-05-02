@@ -16,7 +16,7 @@
 
 ---
 
-## 📌 Project Description
+##  Project Description :
 
 **Escape The Maze – The Lost Key** is a 2D adventure maze game developed using **C++ and OpenGL/GLUT**.
 
@@ -26,7 +26,7 @@ This project applies core Computer Graphics concepts through a complete interact
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents :
 
 - [Gameplay Demo](#-gameplay-demo)
 - [Screenshots](#-screenshots)
@@ -45,7 +45,7 @@ This project applies core Computer Graphics concepts through a complete interact
 
 ---
 
-## 🎥 Gameplay Demo
+##  Gameplay Demo 🎥 :
 
 <p align="center">
   <img src="objects/Play.gif" width="850">
