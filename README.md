@@ -33,35 +33,21 @@ Replace the link below with your YouTube / Google Drive demo video link.
 **Direct Video Link:** PUT_YOUR_VIDEO_LINK_HERE
 
 ---
-
-##  Screenshots :
+## 🖼️ Screenshots
 
 A quick preview of the game's main scenes and gameplay experience.
 
-### Main Menu
-<p align="center">
-  <img src="screenshots/menu.png" width="850">
-</p>
+| Main Menu | How To Play |
+|---|---|
+| <img src="screenshots/menu.png" width="430"> | <img src="screenshots/how-to-play.png" width="430"> |
 
-### How To Play
-<p align="center">
-  <img src="screenshots/how-to-play.png" width="850">
-</p>
+| Gameplay | Victory |
+|---|---|
+| <img src="screenshots/gameplay.png" width="430"> | <img src="screenshots/victory.png" width="430"> |
 
-### Gameplay
-<p align="center">
-  <img src="screenshots/gameplay.png" width="850">
-</p>
-
-### Victory Screen
-<p align="center">
-  <img src="screenshots/victory.png" width="850">
-</p>
-
-### Game Over Screen
-<p align="center">
-  <img src="screenshots/game-over.png" width="850">
-</p>
+| Game Over | |
+|---|---|
+| <p align="center"><img src="screenshots/game-over.png" width="430"></p> | |
 ##  Game Flow 🧩 :
 
 Put your flowchart image here: `diagrams/game-flow.png`
