@@ -2,8 +2,16 @@
 
 > A 2D OpenGL adventure game demonstrating core Computer Graphics concepts through interactive gameplay.
 
+Watch the full gameplay walkthrough here:
+
 <p align="center">
-  <img width="900" src="screenshots/gameplay.png" alt="Escape The Maze Gameplay Preview">
+  <a href="PUT_YOUR_VIDEO_LINK_HERE">
+    <img src="screenshots/menu.png" width="850">
+  </a>
+</p>
+
+<p align="center">
+  <b>▶ Click the image above to watch the gameplay video</b>
 </p>
 
 <p align="center">
