@@ -305,7 +305,7 @@ Command + R
 | **Lina Saud Almatrafi** | 441011792      |
 | **Jory Majed Alotaibi** | 44411907       |
 | **Fouz Fawaz Alsharif** | 44412064       |
-| **Lama Alaofy**         | 44411741       |
+| **Lama Abdullah Al-Awfi         | 44411741       |
 
 ---
 
