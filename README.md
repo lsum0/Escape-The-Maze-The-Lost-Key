@@ -99,7 +99,7 @@ Victory / Game Over
 
 ---
 
-## 🏗️ Code Architecture
+##  Code Architecture :
 
 <p align="center">
   <img width="750" src="diagrams/ARCHITECTURE DIAGRAM.png" alt="Architecture Diagram">
@@ -121,7 +121,7 @@ glutMainLoop()
 
 ---
 
-## 👤 Characters
+##  Characters :
 
 <p align="center">
   <img width="220" src="characters/The boy 1.png">
@@ -137,7 +137,7 @@ glutMainLoop()
 
 ---
 
-## 🗝️ Game Objects 🧱
+##  Game Objects 🗝️ :
 
 <p align="center">
   <img width="110" src="objects/Key1.png" alt="Key 1">
@@ -158,7 +158,7 @@ glutMainLoop()
 
 ---
 
-## 🎮 Gameplay Features
+##  Gameplay Features 🎮 :
 
 - Main menu with mouse interaction
 - How To Play instructions screen
@@ -176,7 +176,7 @@ glutMainLoop()
 
 ---
 
-## 🧠 Computer Graphics Concepts Applied
+## Computer Graphics Concepts Applied :
 
 ### 1. 2D Object Representation
 The game uses rectangles, quads, polygons, and texture-mapped surfaces to represent game objects.
@@ -234,7 +234,7 @@ Rectangle-based collision detection is used for:
 
 ---
 
-## 🎮 Controls
+## Controls 🎮:
 
 | Action | Input |
 |---|---|
@@ -250,7 +250,7 @@ Rectangle-based collision detection is used for:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure :
 
 ```text
 Escape-The-Maze-The-Lost-Key/
@@ -270,7 +270,7 @@ Escape-The-Maze-The-Lost-Key/
 
 ---
 
-## 🚀 How to Run
+##  How to Run :
 
 ### macOS / Xcode
 
@@ -285,34 +285,27 @@ Command + R
 
 ---
 
-## 📚 References
+##  References :
 
 - OpenGL Documentation: https://www.opengl.org/
 - FreeGLUT Documentation: https://freeglut.sourceforge.net/
 - `stb_image.h` by Sean Barrett: https://github.com/nothings/stb
 
 ---
+ 
+##  Team Members 👩‍💻:
 
-## 👩‍💻 Team Members
-
-| Name | Role |
+| Name | Student Number  |
 |---|---|
-| **Lina Saud Almatrafi** | Team Leader / Game Structure |
-| **Jory Majed Alotaibi** | UI & Scenes |
-| **Fouz Fawaz Alsharif** | Gameplay Logic |
-| **Lama Alaofy** | Documentation & Presentation |
+| **Lina Saud Almatrafi** | 441011792|
+| **Jory Majed Alotaibi** | 44411907 |
+| **Fouz Fawaz Alsharif** | 44412064 |
+| **Lama Alaofy** | 44411741|
 
 ---
 
-## 🔮 Future Work
 
-- Add sound effects
-- Add more maze levels
-- Add moving enemies
-- Add scoring system
-- Add difficulty modes
 
----
 
 <p align="center">
   <img src="https://img.shields.io/badge/Built%20With-OpenGL%20%26%20Creativity-gold?style=for-the-badge">
