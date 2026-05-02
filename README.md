@@ -100,10 +100,11 @@ glutMainLoop()
 
 Put character images inside the `characters/` folder.
 
+
 <p align="center">
-  <img width="220" src="characters/The boy 1.png">
-  <img width="220" src="characters/Imposter.png">
-  <img width="220" src="characters/Fair.png">
+  <img width="220" src="characters/player.png">
+  <img width="220" src="characters/enemy.png">
+  <img width="220" src="characters/torch.png">
 </p>
 
 | Character | Role |
