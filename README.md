@@ -36,20 +36,32 @@ Replace the link below with your YouTube / Google Drive demo video link.
 
 ##  Screenshots :
 
-Put your screenshots inside the `screenshots/` folder using these exact names.
+A quick preview of the game's main scenes and gameplay experience.
 
-| Main Menu | How To Play |
-|---|---|
-| <img src="screenshots/menu.png" width="420"> | <img src="screenshots/how-to-play.png" width="420"> |
+### Main Menu
+<p align="center">
+  <img src="screenshots/menu.png" width="850">
+</p>
 
-| Gameplay | Victory |
-|---|---|
-| <img src="screenshots/gameplay.png" width="420"> | <img src="screenshots/victory.png" width="420"> |
+### How To Play
+<p align="center">
+  <img src="screenshots/how-to-play.png" width="850">
+</p>
 
-| Game Over |
-|---|---|
-| <img src="screenshots/game-over.png" width="420"> | 
+### Gameplay
+<p align="center">
+  <img src="screenshots/gameplay.png" width="850">
+</p>
 
+### Victory Screen
+<p align="center">
+  <img src="screenshots/victory.png" width="850">
+</p>
+
+### Game Over Screen
+<p align="center">
+  <img src="screenshots/game-over.png" width="850">
+</p>
 ##  Game Flow 🧩 :
 
 Put your flowchart image here: `diagrams/game-flow.png`
