@@ -120,12 +120,12 @@ Put character images inside the `characters/` folder.
 Put object images inside the `objects/` folder.
 
 <p align="center">
-  <img width="110" src="objects/key1.png" alt="Key 1">
-  <img width="110" src="objects/key2.png" alt="Key 2">
-  <img width="110" src="objects/key3.png" alt="Key 3">
-  <img width="130" src="objects/door.png" alt="Door">
+  <img width="110" src="objects/Key1.png" alt="Key1">
+  <img width="110" src="objects/Key2.png" alt="Key2">
+  <img width="110" src="objects/key3.png" alt="Key3">
+  <img width="130" src="objects/TheDoor.png" alt="TheDoor">
   <img width="110" src="objects/trap.png" alt="Trap">
-  <img width="110" src="objects/heart.png" alt="Heart">
+  <img width="110" src="objects/Heart.png" alt="Heart">
 </p>
 
 ---
