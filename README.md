@@ -57,7 +57,7 @@ Put your screenshots inside the `screenshots/` folder using these exact names.
 Put your flowchart image here: `diagrams/game-flow.png`
 
 <p align="center">
-  <img width="750" src="diagrams/game-flow.png" alt="Game Flow Diagram">
+  <img width="750" src="diagrams/Game Flow.png" alt="Game Flow">
 </p>
 
 ```text
@@ -79,7 +79,7 @@ Victory / Game Over
 Put your architecture diagram here: `diagrams/architecture.png`
 
 <p align="center">
-  <img width="750" src="diagrams/architecture.png" alt="Code Architecture Diagram">
+  <img width="750" src="diagrams/ARCHITECTURE DIAGRAM.png" alt="ARCHITECTURE DIAGRAM">
 </p>
 
 ```text
