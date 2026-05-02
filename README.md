@@ -11,7 +11,7 @@ Watch the full gameplay walkthrough here:
 </p>
 
 <p align="center">
-  <b>▶ Click the image above to watch the gameplay video</b>
+
 </p>
 
 <p align="center">
