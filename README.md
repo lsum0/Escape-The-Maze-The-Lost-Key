@@ -46,10 +46,9 @@ Put your screenshots inside the `screenshots/` folder using these exact names.
 |---|---|
 | <img src="screenshots/gameplay.png" width="420"> | <img src="screenshots/victory.png" width="420"> |
 
-| Game Over | Intro |
+| Game Over 
 |---|---|
-| <img src="screenshots/game-over.png" width="420"> | 
----
+| <img src="screenshots/game-over.png" width="420"> 
 
 ##  Game Flow 🧩 :
 
